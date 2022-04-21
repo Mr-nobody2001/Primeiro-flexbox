@@ -7,7 +7,7 @@ let imagesBottom = document.getElementById("mg")
 
 window.addEventListener("load", function () {
 
-    if (screenS <= 400) {
+    if (screenS <= 450) {
 
         imagesBs[0].src = "bg-section-top-mobile-1.svg"
 
