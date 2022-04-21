@@ -708,7 +708,7 @@ footer {
 
 /* Cellphone configuration */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
 
     h2 {
         /* Texto */
