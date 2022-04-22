@@ -743,12 +743,12 @@ footer {
         border-radius: 25px;
     
         /* Tamanho */
-        width: 60px;
-        height: 20px;
+        width: 100px;
+        height: 30px;
     
         /* Texto */
         color: hsl(322, 100%, 66%);
-        font-size: 8px;
+        font-size: 10px;
     }
 
     /* Part 2 */
@@ -924,8 +924,8 @@ footer {
 
     .conteinerS_4 {
         /* Espaçamento */
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     
         /* Tamanho */
         height: 120px;
@@ -987,14 +987,14 @@ footer {
     
     .conteinerF_1 > nav {
         /* Tamanho */
-        width: 90px;
+        width: 150px;
 
         /* Posição */
         align-self: center;
     }
 
     a > img{
-        width: 24px;
+        width: 32px;
     }
 
     /* Part 2 */
@@ -1014,7 +1014,7 @@ footer {
     
     [type="email"] {
         /* Tamanho */
-        width: 100%;
+        width: 85%;
         height: 30px;
     
         /* Espaçamento */
