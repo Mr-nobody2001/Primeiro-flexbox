@@ -8,27 +8,27 @@ function funScreenS () {
 
     screenS = innerWidth
 
-    imagesBs[0].src = "./Assets/images/bg-section-top-desktop-1.svg"
+    imagesBs[0].src = "bg-section-top-desktop-1.svg"
 
-    imagesBs[1].src = "./Assets/images/bg-section-bottom-desktop-1.svg"
+    imagesBs[1].src = "bg-section-bottom-desktop-1.svg"
 
-    imagesBs[2].src = "./Assets/images/bg-section-top-desktop-2.svg"
+    imagesBs[2].src = "bg-section-top-desktop-2.svg"
 
-    imagesBs[3].src = "./Assets/images/bg-section-bottom-desktop-2.svg"
+    imagesBs[3].src = "bg-section-bottom-desktop-2.svg"
 
-    imagesBottom.src = "./Assets/images/bg-footer-top-desktop.svg"
+    imagesBottom.src = "bg-footer-top-desktop.svg"
 
     if (screenS <= 450) {
 
-        imagesBs[0].src = "./Assets/images/bg-section-top-mobile-1.svg"
+        imagesBs[0].src = "bg-section-top-mobile-1.svg"
 
-        imagesBs[1].src = "./Assets/images/bg-section-bottom-mobile-1.svg"
+        imagesBs[1].src = "bg-section-bottom-mobile-1.svg"
 
-        imagesBs[2].src = "./Assets/images/bg-section-top-mobile-2.svg"
+        imagesBs[2].src = "bg-section-top-mobile-2.svg"
 
-        imagesBs[3].src = "./Assets/images/bg-section-bottom-mobile-2.svg"
+        imagesBs[3].src = "bg-section-bottom-mobile-2.svg"
 
-        imagesBottom.src = "./Assets/images/bg-footer-top-mobile.svg"
+        imagesBottom.src = "bg-footer-top-mobile.svg"
 
     }
 
