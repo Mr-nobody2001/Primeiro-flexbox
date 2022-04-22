@@ -321,12 +321,12 @@ section {
     align-items: center;
     justify-content: space-between;
 
-    /* Espaçamento */
-    margin-top: 50px;
+   /* Espaçamento */
+    margin-top: 200px;
     margin-bottom: 200px;
 
     /* Tamanho */
-    height: 250px;
+    height: 300px;
 
     /* Texto */
     text-align: center;
@@ -612,8 +612,8 @@ footer {
     
     .conteinerS_4 {
         /* Espaçamento */
-        margin-top: 10px;
-        margin-bottom: 50px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     
         /* Tamanho */
         height: 170px;
