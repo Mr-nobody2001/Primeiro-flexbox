@@ -677,10 +677,10 @@ footer {
     
     .conteinerF_1 > nav {
         /* Tamanho */
-        width: 90px;
+        width: 150px;
     }
 
-    a > img{
+    .conteinerF_1 a > img{
         width: 24px;
     }
     
