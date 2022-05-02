@@ -4,6 +4,8 @@ let imagesBs = document.querySelectorAll(".bodyS > img ")
 
 let imagesBottom = document.getElementById("mg")
 
+let but = document.getElementsByTagName("button")
+
 function funScreenS () {
 
     screenS = innerWidth
@@ -17,6 +19,14 @@ function funScreenS () {
     imagesBs[3].src = "bg-section-bottom-desktop-2.svg"
 
     imagesBottom.src = "bg-footer-top-desktop.svg"
+    
+    for (let i = 0; i < but.length; i++) {
+
+        but[i].addEventListener("click", function () {
+            window.location.href = "https://github.com/Mr-nobody2001"
+        })
+
+    }
 
     if (screenS <= 450) {
 
@@ -29,6 +39,14 @@ function funScreenS () {
         imagesBs[3].src = "bg-section-bottom-mobile-2.svg"
 
         imagesBottom.src = "bg-footer-top-mobile.svg"
+        
+        for (let i = 0; i < but.length; i++) {
+
+            but[i].addEventListener("touchstart", function () {
+                window.location.href = "https://github.com/Mr-nobody2001"
+            })
+    
+        }
 
     }
 
